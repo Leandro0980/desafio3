@@ -2,9 +2,10 @@ pipeline {
     agent any
     environment{
         FUNCTION_NAME="educacionit_s3toDynamonCSVImport"
-        BUCKETS3="roxsross-code-backend-bucket"
+        BUCKETS3="leandro-code-backend-bucket"
         ZIP="function.zip"
         CODE="lambda_function.py"
+        BRANCH_NAME="master"
     }
 
     stages {
