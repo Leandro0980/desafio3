@@ -5,7 +5,7 @@ pipeline {
         BUCKETS3="leandro-code-backend-bucket"
         ZIP="function.zip"
         CODE="lambda_function.py"
-        BRANCH_NAME="master"
+        BRANCH_NAME="main"
     }
 
     stages {
