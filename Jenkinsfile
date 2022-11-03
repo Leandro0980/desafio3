@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment{
-        FUNCTION_NAME="educacionit_s3toDynamonCSVImport"
+        FUNCTION_NAME="ducacionit_s3toDynamonCSVImport"
         BUCKETS3="leandro-code-backend-bucket"
         ZIP="function.zip"
         CODE="lambda_function.py"
